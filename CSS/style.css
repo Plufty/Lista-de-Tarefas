@@ -1,0 +1,152 @@
+:root
+{ 
+    --white: #ffffff;   
+    --middleBlue: #2b5971;
+    --fontMedium: 15px;
+    --fontLarge: 20px;
+}
+
+body
+{
+    background-image: linear-gradient(to top, rgba(0,0,255,0), rgba(0,0,255,0), rgba(0,0,255,0), rgba(0,0,255,0), rgba(0,0,255,0.4));
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    display: block;
+    margin: 0 10% auto;
+    text-align: center;
+
+}
+
+table, tr, td 
+{
+    border: 1px solid black;
+}
+
+table 
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 1080px;
+    padding: 1em;
+    border: 1px solid black;
+    font-size: var(--fontMedium);
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.um
+{
+    margin: 0 auto;
+}
+
+.um p
+{
+    width: 200px;
+    display: inline-block;
+}
+
+.botões
+{
+    background-color: var(--middleBlue);
+    border: 1px solid black;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 50px;
+    width: 90px;
+    padding: 5px;
+}
+
+.botões:hover
+{
+    transform: scale(1.1);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.formulário /*Estilizando o quadro do formulário*/
+{
+
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 1080px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    font-size: var(--fontMedium);
+    text-align: center;
+    margin-bottom: 2em;
+}
+.formulário_edit /*Estilizando o quadro do formulário*/
+{
+
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    font-size: var(--fontMedium);
+    text-align: center;
+    margin-bottom: 2em;
+}
+.amarelo
+{
+    background-color: yellow;
+}
+
+.formulário h2 /*Centralizando e definindo tamanho do título*/
+{
+    
+    font-size: var(--fontLarge);
+    text-align: center;
+}
+
+.formulário input[type="text"], select, input[type="number"],input[type="file"],input[type="date"], .custom-file-upload
+{
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+    margin-left: auto 0;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 200px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+input:focus, textarea:focus 
+{    
+    border-color: #000;/* Dar um pouco de destaque nos elementos ativos */
+}
+
+
+ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+.item
+{
+   list-style: none;
+   margin: 0 0 3px
+}
+
+.itens
+{
+    font-size: var(--fontLarge);
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    height: 60px;
+}
+.atributos
+{
+    
+    width: 200px;
+    display: inline-block;
+}
